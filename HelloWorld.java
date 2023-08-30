@@ -6,6 +6,6 @@ public class HelloWorld
 {
     public static void main(String[] args) 
     {
-        System.out.println("Hello World!");
+        System.out.println("Error, please delete yourself, you are not a programmer!!!");
     }
 }
