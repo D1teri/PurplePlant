@@ -4,17 +4,22 @@
 **/
 public class RedBukkit
 {
-    int x = 1007;
+    int x = 107;
     int y = 0;
+    int d = 0;
+    String ota = "I am done...";
+    String ota2 = "maybe...";
     public void run() {
-    while (x > 0) {
-        x -= 7;
-        System.out.println(x);
-        while(y < 300000000){
-            y += 1;
+        while (x > 0) {
+            x -= 7;
+            System.out.println(x);
+            while(y < 300000000){
+                y += 1;
+            }
+            y = 0;
         }
-        y = 0;
-    }
+        System.out.print(ota);
+        System.out.println(ota2);
     }
     public static void main(String[] args) 
     {
